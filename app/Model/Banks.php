@@ -2,9 +2,9 @@
 
 namespace App\Model;
 
-use Design\Db\Builder\DirectorAbstract;
+use Design\Db\ModelAbstract;
 
-class Banks extends DirectorAbstract
+class Banks extends ModelAbstract
 {
     protected $table = 'banks_activated';
 }

@@ -2,8 +2,8 @@
 
 namespace App\Model;
 
-use Design\Db\Builder\DirectorAbstract;
+use Design\Db\ModelAbstract;
 
-class Users extends DirectorAbstract
+class Users extends ModelAbstract
 {
 }
