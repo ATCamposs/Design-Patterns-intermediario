@@ -1,5 +1,7 @@
 <?php
 
+namespace Design\Db\FactoryMethod;
+
 require __DIR__ . '/../vendor/autoload.php';
 
 use Design\Db\FactoryMethod\Circle;
@@ -9,12 +11,12 @@ class Client
 {
     public function __construct()
     {
-        $circle = (new Design\Db\FactoryMethod\ConcreteCreator())->factoryMethod(new Circle());
+        $circle = (new ConcreteCreator())->factoryMethod(new Circle());
         echo $circle->getImage();
 
         echo PHP_EOL;
 
-        $triangle = (new Design\Db\FactoryMethod\ConcreteCreator())->factoryMethod(new Triangle());
+        $triangle = (new ConcreteCreator())->factoryMethod(new Triangle());
         echo $triangle->getImage();
     }
 }

@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$original = new namespace \Design\Db\Prototype\ConcretePrototype;
+$original = new \Design\Db\Prototype\ConcretePrototype();
 
 $original->setTitle('PHP Essencial');
 $original->setAuthor('André Campos');
