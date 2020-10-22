@@ -38,5 +38,4 @@ Especificar os tipos de objetos a serem criados usando uma instância protótipo
  Garantir que uma classe tenha somente uma instância e fornecer um ponto de acesso global para a mesma.
   - Se for preciso haver apenas uma instância de uma classe, e essa instância tiver que dar acesso aos clientes de um ponto conhecido.
   - A única instância tiver que ser extensível através de subclasses, possibilitando aos clientes usar uma instância extendida sem alterar seu código.
- ![alt text](https://github.com/ATCamposs/Design-Patterns-intermediario/blob/master/images/singleton.png?raw=true)
-
+  ![alt text](https://github.com/ATCamposs/Design-Patterns-intermediario/blob/master/images/singleton.png?raw=true)
